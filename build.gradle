@@ -36,7 +36,8 @@ dependencies {
             "io.rest-assured:rest-assured:$restAssuredVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
-            "org.slf4j:slf4j-simple:$slf4jVersion"
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            'org.aeonbits.owner:owner:1.0.12'
     )
 }
 
@@ -49,4 +50,21 @@ tasks.withType(Test) {
             exceptionFormat "short"
         }
     }
+}
+task android_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("android")
+    }
+}
+task ios_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("ios")
+    }
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
 }
