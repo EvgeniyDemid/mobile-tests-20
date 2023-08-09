@@ -4,7 +4,8 @@ import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-		"classpath:{env}.properties"
+		"classpath:config/${env}.properties",
+		"classpath:config/base.properties"
 })
 public interface BrowserstackConfig extends Config {
 
@@ -22,4 +23,16 @@ public interface BrowserstackConfig extends Config {
 
 	@Key("os_version")
 	String getOsVersion();
+
+	@Key("project")
+	String getProject();
+
+	@Key("build")
+	String getBuild();
+
+	@Key("name")
+	String getName();
+
+	@Key("urlRemoteWebDriver")
+	String getUrlRemoteWebDriver();
 }
