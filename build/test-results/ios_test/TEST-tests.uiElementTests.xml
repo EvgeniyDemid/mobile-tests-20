@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.uiElementTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-09T19:23:40" hostname="DEMIDOV-E" time="39.359">
+  <properties/>
+  <testcase name="uiElements()" classname="tests.uiElementTests" time="39.359"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Yevgeny.Demidov\IdeaProjects\mobile-tests-20\build\downloads\1691609020246_9132_1
+авг. 09, 2023 10:23:40 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+авг. 09, 2023 10:23:41 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [app, browserstack.key, browserstack.user, build, device, name, os_version, project]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+авг. 09, 2023 10:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [app, browserstack.key, browserstack.user, build, device, name, os_version, project]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName= Version= Platform=MAC
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.13.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.3 build revision: e5e76298c3
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver:  on IOS (b352714496d1254fd190d3ee15162a3a4fd16203)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver:  on IOS (b352714496d1254fd190d3ee15162a3a4fd16203),proxy=null,downloadsFolder=C:\Users\Yevgeny.Demidov\IdeaProjects\mobile-tests-20\build\downloads\1691609020246_9132_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\Yevgeny.Demidov\IdeaProjects\mobile-tests-20\build\downloads\1691609020246_9132_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver:  on IOS (b352714496d1254fd190d3ee15162a3a4fd16203)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 811 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver:  on IOS (null),proxy=null,downloadsFolder=C:\Users\Yevgeny.Demidov\IdeaProjects\mobile-tests-20\build\downloads\1691609020246_9132_1] in 1 [size=0]
+]]></system-err>
+</testsuite>

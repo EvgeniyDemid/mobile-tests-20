@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="Sample iOS" label="Sample iOS" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+            <XCUIElementTypeNavigationBar type="XCUIElementTypeNavigationBar" name="Sample_iOS.TextEditor" enabled="true" visible="true" accessible="false" x="0" y="20" width="375" height="44" index="0">
+              <XCUIElementTypeButton type="XCUIElementTypeButton" name="UI Elements" label="UI Elements" enabled="true" visible="true" accessible="true" x="0" y="20" width="65" height="44" index="0"/>
+            </XCUIElementTypeNavigationBar>
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="1">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="667" index="0">
+                  <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Waiting for text input." name="Text Output" label="Waiting for text input." enabled="true" visible="true" accessible="true" x="0" y="73" width="375" height="60" index="0"/>
+                  <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="Enter a text" name="Text Input" label="" enabled="true" visible="true" accessible="true" x="0" y="131" width="375" height="60" index="1"/>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+      <XCUIElementTypeTabBar type="XCUIElementTypeTabBar" name="Tab Bar" label="Tab Bar" enabled="true" visible="true" accessible="false" x="0" y="618" width="375" height="49" index="1">
+        <XCUIElementTypeButton type="XCUIElementTypeButton" value="1" name="UI Elements" label="UI Elements" enabled="true" visible="true" accessible="true" x="2" y="619" width="121" height="48" index="0"/>
+        <XCUIElementTypeButton type="XCUIElementTypeButton" name="Web View" label="Web View" enabled="true" visible="true" accessible="true" x="127" y="619" width="121" height="48" index="1"/>
+        <XCUIElementTypeButton type="XCUIElementTypeButton" name="Local Testing" label="Local Testing" enabled="true" visible="true" accessible="true" x="252" y="619" width="121" height="48" index="2"/>
+      </XCUIElementTypeTabBar>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+</XCUIElementTypeApplication></AppiumAUT>
